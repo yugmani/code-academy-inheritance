@@ -24,6 +24,14 @@ class Animal {
   }
 }
 
+//child class
+class Cat extends Animal {
+  constructor(name, usesLitter) {
+    super(name);
+    this._usesLitter = usesLitter;
+  }
+}
+
 //creating a parent class named HospitalEmployee.
 class HospitalEmployee {
   constructor(name) {
